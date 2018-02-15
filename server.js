@@ -4,7 +4,7 @@ var url = require('url');
 var fs = require('fs');
 
 //req = request = درخواست کاربر
-//res = responce = پاسخ کاربر
+//res = responce   پاسخ کاربر 
 
 http.createServer(function (req, res) {
     // res.write(module_time.getTime());
