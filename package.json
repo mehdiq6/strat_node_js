@@ -14,5 +14,8 @@
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^1.14.12"
+  },
+  "dependencies": {
+    "flat-db": "^2.1.3"
   }
 }

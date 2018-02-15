@@ -16,9 +16,6 @@
     <script src="js/bootstrap.min.js"></script>
 
 </head>
-
-
-
 <body>
     
     <!--start header-->
@@ -82,161 +79,7 @@
 
 
 
-  <div class="col-md-9 nopadding">
-
-
-        <div class="col-md-4 post-card "><!-- start post-card-->
-            <a href="#">
-                <div class="ad-item"><!--ad-item-->
-            
-                <img src="images/iphone.jpg">
-
-                <div class="riboon"><!--riboon-->
-                    <span class="label label-primary">ویژه</span>
-                    <span class="label label-danger">فوری</span>
-                </div>      
-              
-                <div class="title-data"><!--title-data-->
-                    <h3>فروش آیفون فوری</h3>
-                    <p>چند دقیقه پیش</p>
-                </div>
-              
-                <div class="property"><!--property-->
-                    <a class="item-type">قیمت :18000</a>
-                    <a class="item-city pull-left">گوهردشت</a>
-                </div>
-                </div>
-            </a>
-        </div><!-- end post-card-->
-
-
-        <div class="col-md-4 post-card "><!-- start post-card-->
-            <a href="#">
-                <div class="ad-item"><!--ad-item-->
-            
-                <img src="images/iphone.jpg">
-
-                <div class="riboon"><!--riboon-->
-                    <span class="label label-primary">ویژه</span>
-                    <span class="label label-danger">فوری</span>
-                </div>      
-              
-                <div class="title-data"><!--title-data-->
-                    <h3>فروش آیفون فوری</h3>
-                    <p>چند دقیقه پیش</p>
-                </div>
-              
-                <div class="property"><!--property-->
-                    <a class="item-type">قیمت :18000</a>
-                    <a class="item-city pull-left">گوهردشت</a>
-                </div>
-                </div>
-            </a>
-        </div><!-- end post-card-->
-
-
-
-        <div class="col-md-4 post-card "><!-- start post-card-->
-            <a href="#">
-                <div class="ad-item"><!--ad-item-->
-            
-                <img src="images/iphone.jpg">
-
-                <div class="riboon"><!--riboon-->
-                    <span class="label label-primary">ویژه</span>
-                    <span class="label label-danger">فوری</span>
-                </div>      
-              
-                <div class="title-data"><!--title-data-->
-                    <h3>فروش آیفون فوری</h3>
-                    <p>چند دقیقه پیش</p>
-                </div>
-              
-                <div class="property"><!--property-->
-                    <a class="item-type">قیمت :18000</a>
-                    <a class="item-city pull-left">گوهردشت</a>
-                </div>
-                </div>
-            </a>
-        </div><!-- end post-card-->
-
-
-
-        <div class="col-md-4 post-card "><!-- start post-card-->
-            <a href="#">
-                <div class="ad-item"><!--ad-item-->
-            
-                <img src="images/iphone.jpg">
-
-                <div class="riboon"><!--riboon-->
-                    <span class="label label-primary">ویژه</span>
-                    <span class="label label-danger">فوری</span>
-                </div>      
-              
-                <div class="title-data"><!--title-data-->
-                    <h3>فروش آیفون فوری</h3>
-                    <p>چند دقیقه پیش</p>
-                </div>
-              
-                <div class="property"><!--property-->
-                    <a class="item-type">قیمت :18000</a>
-                    <a class="item-city pull-left">گوهردشت</a>
-                </div>
-                </div>
-            </a>
-        </div><!-- end post-card-->
-
-
-
-        <div class="col-md-4 post-card "><!-- start post-card-->
-            <a href="#">
-                <div class="ad-item"><!--ad-item-->
-            
-                <img src="images/iphone.jpg">
-
-                <div class="riboon"><!--riboon-->
-                    <span class="label label-primary">ویژه</span>
-                    <span class="label label-danger">فوری</span>
-                </div>      
-              
-                <div class="title-data"><!--title-data-->
-                    <h3>فروش آیفون فوری</h3>
-                    <p>چند دقیقه پیش</p>
-                </div>
-              
-                <div class="property"><!--property-->
-                    <a class="item-type">قیمت :18000</a>
-                    <a class="item-city pull-left">گوهردشت</a>
-                </div>
-                </div>
-            </a>
-        </div><!-- end post-card-->
-
-
-
-        <div class="col-md-4 post-card "><!-- start post-card-->
-            <a href="#">
-                <div class="ad-item"><!--ad-item-->
-            
-                <img src="images/iphone.jpg">
-
-                <div class="riboon"><!--riboon-->
-                    <span class="label label-primary">ویژه</span>
-                    <span class="label label-danger">فوری</span>
-                </div>      
-              
-                <div class="title-data"><!--title-data-->
-                    <h3>فروش آیفون فوری</h3>
-                    <p>چند دقیقه پیش</p>
-                </div>
-              
-                <div class="property"><!--property-->
-                    <a class="item-type">قیمت :18000</a>
-                    <a class="item-city pull-left">گوهردشت</a>
-                </div>
-                </div>
-            </a>
-        </div><!-- end post-card-->
+  <div class="col-md-9 nopadding" id="bodyAds">
 
 
     </div><!--end post-card--> 
@@ -245,6 +88,54 @@
 </div>
 
 <br><br>
+
+<script type="text/javascript">
+
+var htmlAdTemplate = '\
+<div class="col-md-4 post-card "><!-- start post-card-->\
+            <a href="#">\
+                <div class="ad-item"><!--ad-item-->\
+            \
+                <img src="[IMAGE]">\
+\
+                <div class="riboon"><!--riboon-->\
+                    <span class="label label-primary">[VIJE]</span>\
+                    <span class="label label-danger">[FORCE]</span>\
+                </div>      \
+              \
+                <div class="title-data"><!--title-data-->\
+                    <h3>[TITLE]</h3>\
+                    <p>[CREATETIME]</p>\
+                </div>\
+              \
+                <div class="property"><!--property-->\
+                    <a class="item-type">قیمت :[PRICE]</a>\
+                    <a class="item-city pull-left">[CITY]</a>\
+                </div>\
+                </div>\
+            </a>\
+        </div><!-- end post-card-->';
+
+        var bodyAds = $('#bodyAds');
+
+        $.get('/getAllAds').done(function(data){
+                data.forEach(function(item) {
+                    bodyAds.append(htmlAdTemplate
+                    .replace('[TITLE]' ,item.title)
+                    .replace('[IMAGE]' ,item.picture)
+                    .replace('[VIJE]' ,item.lableVije)
+                    .replace('[FORCE]' ,item.lableFoce)
+                    .replace('[CREATETIME]' ,item.timeCreate)
+                    .replace('[CITY]' ,item.city)
+                    .replace('[PRICE]' ,item.price)
+                );
+                });
+});
+
+
+
+</script>
+
 </body>
 </html>
 
